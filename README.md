@@ -5,4 +5,12 @@ How To Run :
 
 Go To calculatorbot.py File 
 And Edit "Bot Token" With "Your Bot Token" taken From @Botfather
-And Edit 
+And Edit "Your telegram ID" 
+
+Run This Python Script 
+
+pip install telebot 
+
+and run calculatorbot.py
+
+THATS IT !!
