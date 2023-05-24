@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot("5692388615:AAFtFc0eolxXt26S0JwrnkXK6TAFuyh3Qf8")
+bot = telebot.TeleBot("Bot Token")
 
 # Define the '/start' command
 
@@ -108,7 +108,7 @@ def handle_callback(call):
             bot.edit_message_text(chat_id=call.message.chat.id,
                                   message_id=call.message.message_id, parse_mode="HTML",
                                   text=text, reply_markup=keyboard)
-owner_chat_id = "5190902724"
+owner_chat_id = "Your telegram ID"
 user_list = []
 # Define the message handler for all other text messages
 @bot.message_handler(content_types=['text'])
