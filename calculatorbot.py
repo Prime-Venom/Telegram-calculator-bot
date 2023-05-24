@@ -19,7 +19,7 @@ def send_welcome(message):
         'Open Calculator', callback_data='/calc')
     keyboard.add(button1)
     first_name = message.from_user.first_name
-    bot.reply_to(message, f"<b>{first_name}, Welcome to my bot!, Please Support Us - @private_bots </b>",
+    bot.reply_to(message, f"<b>{first_name}, Welcome to my bot!, Please Support Us - @private_bots • A Bot BY @Prime_Hritu </b>",
                  parse_mode="HTML", reply_markup=keyboard)
     # bot.delete_message(chat_id=message.chat.id, message_id=message.message_id)
 
