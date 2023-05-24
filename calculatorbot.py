@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot("5692388615:AAFtFc0eolxXt26S0JwrnkXK6TAFuyh3Qf8")
+bot = telebot.TeleBot("6202509183:AAFWv7jgUeY96gzhdqthVG1vOIxxAJq5jKc")
 
 # Define the '/start' command
 
